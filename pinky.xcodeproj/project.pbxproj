@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DEC57CE8854B4C55168F2F8 /* Pods_pinky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA2A6E29F1D40414CE69DBF /* Pods_pinky.framework */; };
+		B23F97151C4AC0AE00DCE31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23F97141C4AC0AE00DCE31D /* Assets.xcassets */; };
+		B23F97311C4ACC4000DCE31D /* PinkyPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F97301C4ACC4000DCE31D /* PinkyPresenterProtocol.swift */; };
+		B23F97381C4ACCB700DCE31D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F97341C4ACCB700DCE31D /* AppDelegate.swift */; };
+		B23F97391C4ACCB700DCE31D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B23F97351C4ACCB700DCE31D /* Info.plist */; };
+		B23F973A1C4ACCB700DCE31D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23F97361C4ACCB700DCE31D /* LaunchScreen.storyboard */; };
+		B23F973B1C4ACCB700DCE31D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23F97371C4ACCB700DCE31D /* Main.storyboard */; };
+		B23F973D1C4ACCEA00DCE31D /* MainPinkyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F973C1C4ACCEA00DCE31D /* MainPinkyController.swift */; };
+		B23F973F1C4ACD1C00DCE31D /* PinkyControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F973E1C4ACD1C00DCE31D /* PinkyControllerProtocol.swift */; };
+		B23F97421C4AE39000DCE31D /* PinkyTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F97411C4AE39000DCE31D /* PinkyTableData.swift */; };
+		B23F97441C4AE46E00DCE31D /* PinkyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F97431C4AE46E00DCE31D /* PinkyPresenter.swift */; };
+		B23F97471C4AE52500DCE31D /* PinkyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F97461C4AE52500DCE31D /* PinkyInteractor.swift */; };
+		B23F97491C4AE53E00DCE31D /* PinkyInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F97481C4AE53E00DCE31D /* PinkyInteractorProtocol.swift */; };
+		B23F974C1C4AE65000DCE31D /* PinkyDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F974B1C4AE65000DCE31D /* PinkyDataStore.swift */; };
+		B23F974E1C4BACA400DCE31D /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F974D1C4BACA400DCE31D /* AppDependencies.swift */; };
+		B23F97511C4BCF4800DCE31D /* PinkyWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F97501C4BCF4800DCE31D /* PinkyWireframe.swift */; };
+		B23F97531C4BE22B00DCE31D /* PinkyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F97521C4BE22B00DCE31D /* PinkyCell.swift */; };
+		B24DEDD31C4C3BAD006737C4 /* PinkyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24DEDD21C4C3BAD006737C4 /* PinkyModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07BA8472AE46A1FB77469B43 /* Pods-pinky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinky.release.xcconfig"; path = "Pods/Target Support Files/Pods-pinky/Pods-pinky.release.xcconfig"; sourceTree = "<group>"; };
+		4FA2A6E29F1D40414CE69DBF /* Pods_pinky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pinky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99066E89DC6F4B8D7CAC4BAF /* Pods-pinky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinky.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pinky/Pods-pinky.debug.xcconfig"; sourceTree = "<group>"; };
+		B23F970A1C4AC0AE00DCE31D /* pinky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23F97141C4AC0AE00DCE31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23F97301C4ACC4000DCE31D /* PinkyPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinkyPresenterProtocol.swift; path = Modules/Protocol/PinkyPresenterProtocol.swift; sourceTree = "<group>"; };
+		B23F97341C4ACCB700DCE31D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Common/AppDelegate.swift; sourceTree = "<group>"; };
+		B23F97351C4ACCB700DCE31D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Common/Info.plist; sourceTree = "<group>"; };
+		B23F97361C4ACCB700DCE31D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Common/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B23F97371C4ACCB700DCE31D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Common/Main.storyboard; sourceTree = "<group>"; };
+		B23F973C1C4ACCEA00DCE31D /* MainPinkyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPinkyController.swift; path = Modules/Views/MainPinkyController.swift; sourceTree = "<group>"; };
+		B23F973E1C4ACD1C00DCE31D /* PinkyControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinkyControllerProtocol.swift; path = Modules/Protocol/PinkyControllerProtocol.swift; sourceTree = "<group>"; };
+		B23F97411C4AE39000DCE31D /* PinkyTableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinkyTableData.swift; path = Modules/Models/PinkyTableData.swift; sourceTree = "<group>"; };
+		B23F97431C4AE46E00DCE31D /* PinkyPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinkyPresenter.swift; path = Modules/Presenters/PinkyPresenter.swift; sourceTree = "<group>"; };
+		B23F97461C4AE52500DCE31D /* PinkyInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinkyInteractor.swift; path = Modules/Interactors/PinkyInteractor.swift; sourceTree = "<group>"; };
+		B23F97481C4AE53E00DCE31D /* PinkyInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinkyInteractorProtocol.swift; path = Modules/Protocol/PinkyInteractorProtocol.swift; sourceTree = "<group>"; };
+		B23F974B1C4AE65000DCE31D /* PinkyDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinkyDataStore.swift; path = Modules/DataStore/PinkyDataStore.swift; sourceTree = "<group>"; };
+		B23F974D1C4BACA400DCE31D /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDependencies.swift; path = Common/AppDependencies.swift; sourceTree = "<group>"; };
+		B23F97501C4BCF4800DCE31D /* PinkyWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinkyWireframe.swift; path = Wireframe/PinkyWireframe.swift; sourceTree = "<group>"; };
+		B23F97521C4BE22B00DCE31D /* PinkyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinkyCell.swift; path = Modules/Views/PinkyCell.swift; sourceTree = "<group>"; };
+		B24DEDD21C4C3BAD006737C4 /* PinkyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinkyModel.swift; path = Common/Entity/PinkyModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23F97071C4AC0AE00DCE31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEC57CE8854B4C55168F2F8 /* Pods_pinky.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23F97011C4AC0AE00DCE31D = {
+			isa = PBXGroup;
+			children = (
+				B23F970C1C4AC0AE00DCE31D /* pinky */,
+				B23F970B1C4AC0AE00DCE31D /* Products */,
+				C1B2C0405371EE00A90F21CD /* Pods */,
+				BB36937BF97958A5905C7441 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B23F970B1C4AC0AE00DCE31D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23F970A1C4AC0AE00DCE31D /* pinky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23F970C1C4AC0AE00DCE31D /* pinky */ = {
+			isa = PBXGroup;
+			children = (
+				B23F972B1C4AC27C00DCE31D /* Modules */,
+				B23F971F1C4AC0C500DCE31D /* Common */,
+				B23F97141C4AC0AE00DCE31D /* Assets.xcassets */,
+			);
+			path = pinky;
+			sourceTree = "<group>";
+		};
+		B23F971F1C4AC0C500DCE31D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B23F97401C4ACE7000DCE31D /* Entity */,
+				B23F97341C4ACCB700DCE31D /* AppDelegate.swift */,
+				B23F974D1C4BACA400DCE31D /* AppDependencies.swift */,
+				B23F97351C4ACCB700DCE31D /* Info.plist */,
+				B23F97361C4ACCB700DCE31D /* LaunchScreen.storyboard */,
+				B23F97371C4ACCB700DCE31D /* Main.storyboard */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B23F972B1C4AC27C00DCE31D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B23F972F1C4ACAF700DCE31D /* Protocol */,
+				B23F974A1C4AE62C00DCE31D /* DataStore */,
+				B23F972E1C4ACAE500DCE31D /* Models */,
+				B23F97451C4AE50000DCE31D /* Interactors */,
+				B23F972D1C4AC29400DCE31D /* Presenters */,
+				B23F972C1C4AC28500DCE31D /* Views */,
+				B23F974F1C4BCF2400DCE31D /* Wireframe */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		B23F972C1C4AC28500DCE31D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B23F973C1C4ACCEA00DCE31D /* MainPinkyController.swift */,
+				B23F97521C4BE22B00DCE31D /* PinkyCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B23F972D1C4AC29400DCE31D /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				B23F97431C4AE46E00DCE31D /* PinkyPresenter.swift */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		B23F972E1C4ACAE500DCE31D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B23F97411C4AE39000DCE31D /* PinkyTableData.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B23F972F1C4ACAF700DCE31D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B23F97301C4ACC4000DCE31D /* PinkyPresenterProtocol.swift */,
+				B23F973E1C4ACD1C00DCE31D /* PinkyControllerProtocol.swift */,
+				B23F97481C4AE53E00DCE31D /* PinkyInteractorProtocol.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		B23F97401C4ACE7000DCE31D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B24DEDD21C4C3BAD006737C4 /* PinkyModel.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		B23F97451C4AE50000DCE31D /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				B23F97461C4AE52500DCE31D /* PinkyInteractor.swift */,
+			);
+			name = Interactors;
+			sourceTree = "<group>";
+		};
+		B23F974A1C4AE62C00DCE31D /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				B23F974B1C4AE65000DCE31D /* PinkyDataStore.swift */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		B23F974F1C4BCF2400DCE31D /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				B23F97501C4BCF4800DCE31D /* PinkyWireframe.swift */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		BB36937BF97958A5905C7441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA2A6E29F1D40414CE69DBF /* Pods_pinky.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1B2C0405371EE00A90F21CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99066E89DC6F4B8D7CAC4BAF /* Pods-pinky.debug.xcconfig */,
+				07BA8472AE46A1FB77469B43 /* Pods-pinky.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23F97091C4AC0AE00DCE31D /* pinky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23F971C1C4AC0AE00DCE31D /* Build configuration list for PBXNativeTarget "pinky" */;
+			buildPhases = (
+				D08F9ADA17F6F50BF4D85DDF /* Check Pods Manifest.lock */,
+				B23F97061C4AC0AE00DCE31D /* Sources */,
+				B23F97071C4AC0AE00DCE31D /* Frameworks */,
+				B23F97081C4AC0AE00DCE31D /* Resources */,
+				4FAF14F17FD8256DD715CA1A /* Embed Pods Frameworks */,
+				17C4F192B419EE52056F77D1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pinky;
+			productName = pinky;
+			productReference = B23F970A1C4AC0AE00DCE31D /* pinky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23F97021C4AC0AE00DCE31D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lukasz;
+				TargetAttributes = {
+					B23F97091C4AC0AE00DCE31D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B23F97051C4AC0AE00DCE31D /* Build configuration list for PBXProject "pinky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B23F97011C4AC0AE00DCE31D;
+			productRefGroup = B23F970B1C4AC0AE00DCE31D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23F97091C4AC0AE00DCE31D /* pinky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23F97081C4AC0AE00DCE31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23F973A1C4ACCB700DCE31D /* LaunchScreen.storyboard in Resources */,
+				B23F97391C4ACCB700DCE31D /* Info.plist in Resources */,
+				B23F97151C4AC0AE00DCE31D /* Assets.xcassets in Resources */,
+				B23F973B1C4ACCB700DCE31D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17C4F192B419EE52056F77D1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pinky/Pods-pinky-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FAF14F17FD8256DD715CA1A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pinky/Pods-pinky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08F9ADA17F6F50BF4D85DDF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23F97061C4AC0AE00DCE31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23F97491C4AE53E00DCE31D /* PinkyInteractorProtocol.swift in Sources */,
+				B23F973D1C4ACCEA00DCE31D /* MainPinkyController.swift in Sources */,
+				B23F97421C4AE39000DCE31D /* PinkyTableData.swift in Sources */,
+				B24DEDD31C4C3BAD006737C4 /* PinkyModel.swift in Sources */,
+				B23F973F1C4ACD1C00DCE31D /* PinkyControllerProtocol.swift in Sources */,
+				B23F97381C4ACCB700DCE31D /* AppDelegate.swift in Sources */,
+				B23F97471C4AE52500DCE31D /* PinkyInteractor.swift in Sources */,
+				B23F974C1C4AE65000DCE31D /* PinkyDataStore.swift in Sources */,
+				B23F97511C4BCF4800DCE31D /* PinkyWireframe.swift in Sources */,
+				B23F97441C4AE46E00DCE31D /* PinkyPresenter.swift in Sources */,
+				B23F97531C4BE22B00DCE31D /* PinkyCell.swift in Sources */,
+				B23F974E1C4BACA400DCE31D /* AppDependencies.swift in Sources */,
+				B23F97311C4ACC4000DCE31D /* PinkyPresenterProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B23F971A1C4AC0AE00DCE31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B23F971B1C4AC0AE00DCE31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23F971D1C4AC0AE00DCE31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99066E89DC6F4B8D7CAC4BAF /* Pods-pinky.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/pinky/Common/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukasz-solniczek.pinky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B23F971E1C4AC0AE00DCE31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BA8472AE46A1FB77469B43 /* Pods-pinky.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/pinky/Common/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukasz-solniczek.pinky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23F97051C4AC0AE00DCE31D /* Build configuration list for PBXProject "pinky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23F971A1C4AC0AE00DCE31D /* Debug */,
+				B23F971B1C4AC0AE00DCE31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23F971C1C4AC0AE00DCE31D /* Build configuration list for PBXNativeTarget "pinky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23F971D1C4AC0AE00DCE31D /* Debug */,
+				B23F971E1C4AC0AE00DCE31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B23F97021C4AC0AE00DCE31D /* Project object */;
+}
